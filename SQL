@@ -1,0 +1,36 @@
+SQL1
+select model, speed, hd /Выбрать что-то/
+from pc /из/
+where price < 500 /где цена/
+
+SQL2
+select distinct maker  /выбрать только уникальные строки /
+from product /из/
+where type = 'printer'
+
+SQL3
+select model, ram, screen
+from laptop
+where price > 1000
+
+SQL4
+Select code, model, color, type, price
+from printer
+where color = 'y'
+
+SQL5
+SELECT MODEL, SPEED, HD
+FROM PC
+WHERE (CD='12X' OR CD='24X') AND
+PRICE < 600
+
+
+SQL6
+SELECT DISTINCT MAKER, SPEED 
+FROM LAPTOP, PRODUCT
+WHERE (LAPTOP.MODEL = PRODUCT.MODEL) AND
+HD >= 10
+
+SQL7
+
+
